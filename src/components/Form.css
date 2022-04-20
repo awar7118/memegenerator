@@ -1,0 +1,10 @@
+.form{
+    display: grid;
+    width: 20vw;
+    padding: 20px;
+    text-align: center;
+}
+.formdiv{
+float:inline-end;
+justify-content: center;
+}
