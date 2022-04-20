@@ -3,12 +3,12 @@ import './Form.css'
 
 export default function Form() {
     return (
+<div className="form-container">
         <form className="form">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname"></input>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"></input>
-            <input type="submit" value="Get a new meme image 🎨"></input>
+            <input type="text" placeholder="Top Text"></input>
+            <input type="text" placeholder="Bottom Text"></input>
+            <button className="form-button">Get a new meme image 🎨</button>
         </form>
+</div>
     )
 }

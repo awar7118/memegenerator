@@ -7,9 +7,7 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-      <formdiv className="formdiv">
       <Navbar/>
-      </formdiv>
       <Form/>
     </div>
   );
