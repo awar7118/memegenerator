@@ -7,7 +7,20 @@
 }
 .form-button{
     grid-column: 1 / -1;
+    border-radius: 5px;
+    border: 1px ;
+    border: 1px purple solid;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
 .form-container{
     padding: 50px;
+    border-radius: 5px;
+  
+}
+.form-input{
+    text-indent: 5px;
 }
