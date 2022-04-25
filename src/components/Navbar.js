@@ -1,4 +1,3 @@
-import react from "react";
 import './Navbar.css'
 import TrollFace from '../images/TrollFace.jpg';
 
