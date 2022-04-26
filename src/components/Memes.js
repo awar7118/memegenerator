@@ -11,8 +11,12 @@ export default function Meme() {
         randomImage: "http://i.imgflip.com/1bij.jpg" 
     })
     
-    const [allMemeImages, setAllMemeImages] = useState(memesData)
+    const [allMemeImages, setAllMemeImages] = useState()
     
+    fetch("https://api.imgflip.com/get_memes")
+    .then(response => response.json())
+    .then(data => setAllMemeImages(data))
+
     function getMemeImage() {
         const memesArray = allMemeImages.data.memes
         const randomNumber = Math.floor(Math.random() * memesArray.length)
