@@ -1,20 +1,20 @@
-<h1 align="center">
-    Meme Generator App
-</h1>
-<br>
+# Meme Generator
 
+A React application for creating custom memes using images supplied by the [Imgflip API](https://imgflip.com/api).
 
+![Meme Generator interface](./public/memegeneratorscreenshot.png)
 
-![MemePage ](./public/memegeneratorscreenshot.png)
-<p align="center">
-  Built using React and the <a href="https://imgflip.com/api" target='_blank'>Imfglip API</a>
-</p>
-<br>
- <p align="center">
-    <br />
-<!--     <a href="https://www.cryptaul.xyz/" target='_blank'>View Demo</a> -->
-    <a href="https://github.com/awar7118/memegenerator">Report Bug</a>
-    |
-    <a href="https://github.com/awar7118/memegenerator">Request Feature</a>
-  </p>
-  
+## Features
+
+- Loads current meme templates from Imgflip
+- Lets users add custom top and bottom text
+- Generates a shareable meme from the selected template
+
+## Built with
+
+- React
+- JavaScript
+- CSS
+- Imgflip API
+
+[Live demo](https://meme-generat0r.netlify.app/) · [Report an issue](https://github.com/awar7118/memegenerator/issues)
